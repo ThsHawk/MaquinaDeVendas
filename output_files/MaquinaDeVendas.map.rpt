@@ -1,5 +1,5 @@
 Analysis & Synthesis report for MaquinaDeVendas
-Fri Jun 17 22:49:56 2022
+Wed Jun 29 18:02:01 2022
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -51,7 +51,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Jun 17 22:49:56 2022       ;
+; Analysis & Synthesis Status        ; Successful - Wed Jun 29 18:02:01 2022       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; MaquinaDeVendas                             ;
 ; Top-level Entity Name              ; MaquinaDeVendas                             ;
@@ -78,6 +78,8 @@ https://fpgasoftware.intel.com/eula.
 ; Device                                                           ; 10M50DAF484C7G     ;                    ;
 ; Top-level entity name                                            ; MaquinaDeVendas    ; MaquinaDeVendas    ;
 ; Family name                                                      ; MAX 10             ; Cyclone V          ;
+; VHDL Show LMF Mapping Messages                                   ; Off                ;                    ;
+; VHDL Version                                                     ; VHDL_2008          ; VHDL_1993          ;
 ; Use smart compilation                                            ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
 ; Enable compact report table                                      ; Off                ; Off                ;
@@ -86,7 +88,6 @@ https://fpgasoftware.intel.com/eula.
 ; Preserve fewer node names                                        ; On                 ; On                 ;
 ; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
 ; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
-; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
 ; State Machine Processing                                         ; Auto               ; Auto               ;
 ; Safe State Machine                                               ; Off                ; Off                ;
 ; Extract Verilog State Machines                                   ; On                 ; On                 ;
@@ -380,7 +381,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -390,7 +391,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Fri Jun 17 22:49:45 2022
+    Info: Processing started: Wed Jun 29 18:01:44 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MaquinaDeVendas -c MaquinaDeVendas
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -476,9 +477,9 @@ Info (21057): Implemented 157 device resources after synthesis - the final resou
     Info (21059): Implemented 32 output pins
     Info (21061): Implemented 116 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 28 warnings
-    Info: Peak virtual memory: 4781 megabytes
-    Info: Processing ended: Fri Jun 17 22:49:56 2022
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:24
+    Info: Peak virtual memory: 4776 megabytes
+    Info: Processing ended: Wed Jun 29 18:02:01 2022
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:35
 
 
