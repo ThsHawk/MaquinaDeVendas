@@ -1,13 +1,13 @@
 LIBRARY IEEE;
-	  USE IEEE.std_logic_1164.ALL;
-	  USE work.math_pkg.all;
+	USE IEEE.std_logic_1164.ALL;
+	USE work.math_pkg.all;
 
 ENTITY somador IS
 
 	PORT(
-		dinheiroIN				: IN STD_LOGIC_VECTOR(5 DOWNTO 0);
-		valor_moeda				: IN STD_LOGIC_VECTOR(5 DOWNTO 0);
-		dinheiroOUT				: OUT STD_LOGIC_VECTOR(5 DOWNTO 0)
+		dinheiroIN  : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+		valor_moeda : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+		dinheiroOUT : OUT STD_LOGIC_VECTOR(5 DOWNTO 0)
 	);
 
 END ENTITY somador;

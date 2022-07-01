@@ -49,7 +49,7 @@ PACKAGE BODY math_pkg IS
 
 	function subtrai (entrada, subtraindo : STD_LOGIC_VECTOR) return STD_LOGIC_VECTOR is
 
-		VARIABLE DIFF     : STD_LOGIC_VECTOR(5 DOWNTO 0);
+		VARIABLE DIFF   : STD_LOGIC_VECTOR(5 DOWNTO 0);
 		VARIABLE Borrow	: STD_LOGIC;
 
 	begin
